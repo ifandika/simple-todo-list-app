@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #3e8e41;
+}
+
+.base-input {
+  margin: 50px 0 50px 0;
+}
+
+.input-task {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: solid 2px #3e8e41;
+  border-radius: 6px;
+  position: relative;
+  margin-right: 10px;
+  /* Top shadow (lighter) */
+  box-shadow: 
+    0 4px 0 0 #3e8e41, /* Main shadow */
+    0 5px 5px rgba(0, 0, 0, 0.2); /* Soft outer shadow */
+  
+  transition: all 0.1s ease;
+}
+
+.input-task:active {
+  top: 4px; /* Moves button down */
+  box-shadow: 
+    0 1px 0 0 #3e8e41, /* Reduced shadow */
+    0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button-add {
+  border-radius: 8px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #4CAF50; /* Green base color */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  
+  /* Top shadow (lighter) */
+  box-shadow: 
+    0 4px 0 0 #3e8e41, /* Main shadow */
+    0 5px 5px rgba(0, 0, 0, 0.2); /* Soft outer shadow */
+  
+  transition: all 0.1s ease;
+  text-transform: uppercase;
+}
+
+/* Push effect when clicked */
+.button-add:active,
+.button-move-task:active {
+  top: 4px; /* Moves button down */
+  box-shadow: 
+    0 1px 0 0 #3e8e41, /* Reduced shadow */
+    0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+li {
+  text-align: start;
+}
+
+.title-task {
+  padding: 15px;
+  color: white;
+  background-color: #4CAF50;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 20px;
+  text-align: start;
+  width: 400px;
+  border: solid 2px #3e8e41;
+  border-radius: 6px;
+  position: relative;
+  margin-right: 10px;
+  /* Top shadow (lighter) */
+  box-shadow: 
+    0 4px 0 0 #3e8e41, /* Main shadow */
+    0 5px 5px rgba(0, 0, 0, 0.2); /* Soft outer shadow */
+  
+  transition: all 0.1s ease;
+  word-wrap: break-word;
+}
+
+.button-move-task,
+.delete-button {
+  height: 45px;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin: 0 10px 10px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  background-color: #4CAF50; /* Green base color */ 
+  /* Top shadow (lighter) */
+  box-shadow: 
+    0 4px 0 0 #3e8e41, /* Main shadow */
+    0 5px 5px rgba(0, 0, 0, 0.2); /* Soft outer shadow */
+  
+  transition: all 0.1s ease;
+}
+
+.delete-button {
+  background-color: salmon; /* Green base color */ 
+  box-shadow: 
+    0 4px 0 0 orangered, /* Main shadow */
+    0 5px 5px rgba(0, 0, 0, 0.2); /* Soft outer shadow */
+}
+
+.delete-button:active {
+  top: 4px; /* Moves button down */
+  box-shadow: 
+    0 1px 0 0 rgb(168, 56, 15), /* Reduced shadow */
+    0 2px 5px rgba(0, 0, 0, 0.2);
+}
