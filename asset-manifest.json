@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/simple-todo-list-app/static/css/main.94be83ed.css",
-    "main.js": "/simple-todo-list-app/static/js/main.e7806a1e.js",
+    "main.css": "/simple-todo-list-app/static/css/main.733989cc.css",
+    "main.js": "/simple-todo-list-app/static/js/main.1be18ba5.js",
     "static/js/453.998b27a8.chunk.js": "/simple-todo-list-app/static/js/453.998b27a8.chunk.js",
     "static/media/bootstrap-icons.woff?": "/simple-todo-list-app/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/simple-todo-list-app/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "static/media/logo.svg": "/simple-todo-list-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/simple-todo-list-app/index.html",
-    "main.94be83ed.css.map": "/simple-todo-list-app/static/css/main.94be83ed.css.map",
-    "main.e7806a1e.js.map": "/simple-todo-list-app/static/js/main.e7806a1e.js.map",
+    "main.733989cc.css.map": "/simple-todo-list-app/static/css/main.733989cc.css.map",
+    "main.1be18ba5.js.map": "/simple-todo-list-app/static/js/main.1be18ba5.js.map",
     "453.998b27a8.chunk.js.map": "/simple-todo-list-app/static/js/453.998b27a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94be83ed.css",
-    "static/js/main.e7806a1e.js"
+    "static/css/main.733989cc.css",
+    "static/js/main.1be18ba5.js"
   ]
 }
