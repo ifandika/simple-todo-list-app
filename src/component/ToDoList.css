@@ -79,9 +79,17 @@ h1 {
 
 li {
   text-align: start;
+  list-style: circle;
+}
+
+.base-task {
+  display: grid;
+  grid-template-columns: 70% 13% 17%;
+  margin-bottom: 15px;
 }
 
 .title-task {
+  height: 100%;
   padding: 15px;
   color: white;
   background-color: #4CAF50;
@@ -104,16 +112,40 @@ li {
   word-wrap: break-word;
 }
 
-.button-move-task,
 .delete-button {
-  height: 45px;
   border-radius: 8px;
   display: inline-block;
-  padding: 12px 24px;
+  padding: 15px;
   font-size: 16px;
   font-weight: bold;
   color: white;
-  margin: 0 10px 10px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  background-color: #4CAF50; /* Green base color */ 
+  /* Top shadow (lighter) */
+  box-shadow: 
+    0 4px 0 0 #3e8e41, /* Main shadow */
+    0 5px 5px rgba(0, 0, 0, 0.2); /* Soft outer shadow */
+  
+  transition: all 0.1s ease;
+}
+
+
+.base-move {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button-move-task {
+  border-radius: 8px;
+  display: inline-block;
+  padding: 5px;
+  color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
